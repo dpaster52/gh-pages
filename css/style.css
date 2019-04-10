@@ -168,7 +168,7 @@ banner
 	padding-bottom:15px;
 }
 .btn-appoint, .btn-appoint:hover, .btn-appoint:focus{
-	margin-top: 30px;
+	margin-bottom: 20px;
 	padding: 10px 20px;
 	font-size: 12px;
 	background-color: rgba(115, 174, 76, 0.91);
@@ -286,6 +286,14 @@ about
 .sec-para{
 	padding-bottom: 10px;
 }
+
+@media screen and (min-width:768px){
+	.carousel-indicators{
+	bottom: 200px;}
+}
+
+.carousel-indicators{
+bottom: 250px;}
 /***************************************
 doctor team
 ***************************************/
