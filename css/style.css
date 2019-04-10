@@ -131,27 +131,29 @@ banner
 {
 	color: #fff;
     text-transform: uppercase;
-    background-color: rgba(12, 184, 182, 0.21);
+    background-color: rgba(158, 196, 70, 0.21);
 }
 .affix {
     background-color: #ffffff !important;
 }
 .affix .navbar-nav > li > a:hover, .affix .navbar-nav > li > a:focus
 {
-    background-color: rgba(12, 184, 182) !important;
+    background-color: rgba(115, 174, 76) !important;
 }
+
 #banner{
-	background: url('../img/AWClogo2.jpg') no-repeat fixed;
+	/* background: url('../img/IMG_20190316_170033.jpg') no-repeat fixed; */
+	background-color: rgba(0, 0, 0) !important;
 	background-size: cover;
 	min-height: 650px;
 	position: relative;
 }
 .bg-color{
-	background-color: RGBA(120, 120, 120, 0.78);
+	/* background-color: RGBA(120, 120, 120, 0.78); */
 	min-height: 650px;
 }
 .banner-info{
-	padding-top: 190px;
+	/* padding-top: 190px; */
 }
 .banner-logo img{
 	display: inline-block;
@@ -167,6 +169,14 @@ banner
 }
 .btn-appoint, .btn-appoint:hover, .btn-appoint:focus{
 	margin-top: 30px;
+	padding: 10px 20px;
+	font-size: 12px;
+	background-color: rgba(115, 174, 76, 0.91);
+	border-radius: 3px;
+	color: #fff;
+}
+.btn-modal, .btn-modal:hover, .btn-modal:focus{
+	margin-top: 10px;
 	padding: 10px 20px;
 	font-size: 12px;
 	background-color: rgba(115, 174, 76, 0.91);
@@ -208,9 +218,10 @@ cta-1
 .schedule-tab {
 	background-color: #73C84C;
 	float: left;
+	width: 100% !important;
 }
 .medi-info{
-	border-right: 1px solid #fff;
+	/* border-right: 1px solid #fff; */
 }
 .medi-info, .time-info{
 	padding: 20px;
@@ -233,7 +244,7 @@ cta-1
 }
 td {
     border: 0px solid #ededed;
-    border-top: 1px solid rgba(216, 216, 216, 0.5);
+    /* border-top: 1px solid rgba(216, 216, 216, 0.5); */
     padding: 6px 10px 6px 0;
 }
 .medi-info, .time-info{
@@ -362,7 +373,7 @@ cta -2
 	color: #fff;
 }
 .icon-play, .icon-play:hover, .icon-play:focus{
-	background-color: #0CB8B6;
+	background-color: #73C84C;
 	padding: 5px 10px;
 	color: #fff;
 	text-decoration: none;
@@ -371,7 +382,7 @@ cta -2
 	display: block;
 }
 .text-primary {
-    color: #0cb8b6;
+    color: #73C84C;
 }
 .icon-mar
 {
@@ -433,7 +444,7 @@ contact us
 footer
 ***************************************/
 #footer{
-	background-color: #325C6A;
+	background-color: #73C84C;
 }
 .ftr-tle {
     height: 50px;
@@ -477,8 +488,15 @@ footer
     color: #fff;
 }
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
 .footer-line a {
-    color: #0CB8B6;
+    color: #73C84C;
 }
 
 .quick-info li a{
@@ -486,7 +504,7 @@ footer
 }
 .site-link, .site-link:hover, .site-link:focus
 {
-    color: #0cb8b6;
+    color: #73C84C;
     text-transform: none;
 }
 @media (min-width: 551px) and (max-width: 980px){
