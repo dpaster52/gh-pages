@@ -87,8 +87,9 @@ banner
 }
 
 .navbar-brand img {
-    padding-top: 2px;
-    width: 120px !important;
+    padding-bottom: 15px;
+    height: 200% !important;
+		float: left !important;
 }
 
 .navbar-default .navbar-brand, .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
@@ -97,7 +98,7 @@ banner
 
 @media (max-width: 768px) {
 	.navbar-collapse {
-		background: rgba(28,74,90, 0.9);
+		background: rgba(100,100,100, 0.9);
 	}
 }
 
