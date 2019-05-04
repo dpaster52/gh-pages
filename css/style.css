@@ -406,7 +406,7 @@ contact us
 .btn-form, .btn-form:hover, .btn-form:focus {
     background-color: #73C84C;
     color: #fff;
-    border-radius: 0px;
+    border-radius: 3px;
     padding: 10px 20px;
 }
 .br-radius-zero {
@@ -475,6 +475,7 @@ footer
     line-height: 50px;
     text-align: center;
     margin-right: 5px;
+		border-radius: 10px;
 }
 .bglight-blue {
     background-color: #3498DB;
