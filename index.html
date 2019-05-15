@@ -559,6 +559,18 @@ At Alleviation Wellness Chiropractic, we work with expecting mothers throughout 
   <script src="js/custom.js"></script>
   <script src="contactform/contactform.js"></script>
   <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+  <script>
+    function configureAhoy() {
+      ahoy.configure({
+        visitsUrl: "https://usebasin.com/ahoy/visits",
+        eventsUrl: "https://usebasin.com/ahoy/events",
+        page: "6542b071cffd"
+      });
+      ahoy.trackView();
+      ahoy.trackSubmits();
+    }
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/ahoy.js@0.3.4/dist/ahoy.min.js" async defer onload="configureAhoy()" ></script>
 
 </body>
 
